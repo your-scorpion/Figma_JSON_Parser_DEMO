@@ -1,15 +1,9 @@
-
-
 document.getElementById("btm_primary").addEventListener('click', () => {
 
 	 var xhr = new XMLHttpRequest(); 
 	 var dateans = xhr.open('GET', "https://jsonplaceholder.typicode.com/todos", true);
 	 console.log(dateans);	
-
 	 testJSON(xhr);
-
-
-
 	})
 
 
@@ -33,10 +27,7 @@ document.getElementById("btm_primary").addEventListener('click', () => {
                      newUserList = JSON.parse(JSON.stringify(dataFigma, null, '\t'));
                      return newUserList;
 
-		class ProductList {
-			#goods;
-			#allProducts;
-			}
+
 		  }
 		}
 	xhr.send();
